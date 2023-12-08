@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"> </meta>
+        <title>20220703 exer1_吳焜閔</title>
+    </head>
+    <body>
+        <h1><i>html練習</i></h1>
+        <h2>20220703</h2>
+        <!--斜體and粗體-->
+        <p><b><i>今天好熱</i></b></p>
+        <hr/>
+        <!--div,table-->
+        <div style="color:red;">
+            <ol type="1">
+                <li><i>python</i></li>
+                <li><i>html</i></li>
+            </ol>
+
+            <table width="400">
+                <tr>
+                    <td>日期</td>
+                    <td>7/1</td>
+                    <td>7/2</td>
+                    <td>7/3</td>
+                </tr>
+
+                <tr>
+                    <td>天氣</td>
+                    <td>雷爆</td>
+                    <td>下雨</td>
+                    <td>雷爆</td>
+                </tr>
+            </table>
+        </div>
+        <hr/>
+        <!--the difference between span and div-->
+       <span>span</span>
+       <span>寬度是多少占用的空間就是多少</span>
+       <div>div</div>
+       <div>不管寬度多少就是占用一整行</div>
+       <hr>
+
+       <form action="/formprocess.php" method="post">
+
+        <p>Name:</p>
+        <p><input type="text" name="name" placeholder="請輸入姓名" ></p>
+    
+        <p>Email:</p>
+        <p><input name="species" type="text" placeholder="請輸入信箱"></p>
+    
+        <p>Comments: </p>
+        <p><textarea name="comments" rows="5" cols="20">你的留言</textarea></p>
+        
+        <p>請問你最有興趣學習的技術:</p>
+        <p><input type="radio" name="interest" value="html"> HTML</p>
+        <p><input type="radio" name="interest" value="css"> CSS</p>
+        <p><input type="radio" name="interest" value="js"> JavaScript</p>
+    
+        <p><input type="submit" value="送出資料"></p>
+    
+    </form>
+    </body>
+</html>
